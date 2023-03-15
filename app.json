@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DevSync",
+    "slug": "DevSync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/devSync.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070012"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#070012"
+      },
+      "package": "com.zoriodev.devsync"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "50d67880-557f-4540-ada8-9e8cf1cca589"
+      }
+    }
+  }
+}
